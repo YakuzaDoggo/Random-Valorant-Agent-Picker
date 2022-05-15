@@ -6,7 +6,7 @@ What it reads on the tin
 This will only work currently on Windows environments. Sorry Mac and Linux users!
 
 ## Installation
-Insert instructions here
+Download the latest release [here](https://github.com/YakuzaDoggo/Random-Valorant-Agent-Picker/releases), download and run.
 
 ## Usage
 - Start the program.
