@@ -1,5 +1,7 @@
 # Random-Valorant-Agent-Picker
-What it reads on the tin
+What it reads on the tin. I know that the game can pick a random agent for you, but it isn't entirely random since you'll just lock in the agent you hovered over. And that's cringe.
+
+**So why not have a program pick a more random one?**
 
 
 ## Warning
