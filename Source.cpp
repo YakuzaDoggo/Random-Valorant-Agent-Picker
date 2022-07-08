@@ -7,7 +7,7 @@
 using namespace std;
 
 // all current agents as of April 10th, 2022
-string AGENTS[19] = { "Brimstone", "Viper", "Omen", "Killjoy", "Cypher", "Sova", "Sage", "Phoenix", "Jett", "Reyna", "Raze", "Breach", "Skye", "Yoru", "Astra", "KAY/O", "Chamber", "Neon", "Fade"};
+string AGENTS[19] = { "Brimstone", "Viper", "Omen", "Killjoy", "Cypher", "Sova", "Sage", "Phoenix", "Jett", "Reyna", "Raze", "Breach", "Skye", "Yoru", "Astra", "KAY/O", "Chamber", "Neon", "Fade" };
 
 // function to pick random agent
 string generator();
@@ -86,8 +86,7 @@ int main() {
 
 // simple rng that picks a number between 0 and the total agent count - 1, then returns the string value of the index value in the array at the top of the program
 string generator() {
-	// I don't like how this looks, but it works for the time being
-	int length = sizeof(AGENTS)/sizeof(AGENTS[0]);
+	int length = (sizeof(AGENTS) / sizeof(string)) - 1;
 	int selected = rand() % length;
 
 	return AGENTS[selected];
